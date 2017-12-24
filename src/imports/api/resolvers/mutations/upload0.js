@@ -7,15 +7,6 @@ import helper from '../helpers';
 
 import File0 from '../../collections/file0';
 
-const removeEmpty = obj =>
-  Object.keys(obj).filter(f => obj[f] != null).reduce(
-    (r, i) =>
-      typeof obj[i] === 'object'
-        ? { ...r, [i]: removeEmpty(obj[i]) } // recurse.
-        : { ...r, [i]: obj[i] },
-    {}
-  );
-
 export default function upload0(root, { file }) {
   let workbook = XLSX.readFile(file.path);
   let data = [];

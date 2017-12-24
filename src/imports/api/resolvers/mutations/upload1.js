@@ -18,7 +18,7 @@ export default function upload1(root, { file }) {
   let data = [];
 
   data.push(
-    workbook.SheetNames.map(name => {
+    workbook.SheetNames.filter(name => {
       let value = {};
       name !== 'Instrucciones' && name !== 'listas-desplegables'
         ? (value = helper(workbook.Sheets[name]))
