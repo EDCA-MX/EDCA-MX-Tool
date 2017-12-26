@@ -12,6 +12,7 @@ const Router = ({ loggedInUser, loading }) =>
     ? // private routes
       <Switch>
         <Route path="/" component={HomeContainer} />
+        <Route path="/saveRecord" component={HomeContainer} />
         <Route render={() => <Redirect to="/" />} />
       </Switch>
     : !loading
