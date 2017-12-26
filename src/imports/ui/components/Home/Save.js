@@ -9,6 +9,11 @@ import 'bootstrap/dist/css/bootstrap.css';
 import { compose, withHandlers, lifecycle, withState } from 'recompose';
 import { graphql } from 'react-apollo';
 import gql from 'graphql-tag';
+import Form from './saveForm/Form';
+
+const { SIGNIN } = require('../../redux/reducers/actionsConstants').default;
+
+import Dropzone from './Dropzone';
 
 const Convertion = props =>
   <div id="outer-container">
@@ -20,6 +25,14 @@ const Convertion = props =>
               <div className="row-centered white-text">
                 <div className="col-md-6 col-sm-12 col-centered">
                   <h3 className="section-title text-center blue-text">Nuevo Registro</h3>
+                </div>
+                <Form formType={SIGNIN} />
+                <div className="col-md-6 col-sm-12 col-centered">
+                  <h3 className="section-title text-center blue-text">Datos</h3>
+                  <Dropzone />
+                </div>
+                <div className="col-md-12 col-sm-12 col-centered">
+                  <button className="upload" />
                 </div>
               </div>
             </div>
