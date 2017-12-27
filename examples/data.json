@@ -1,0 +1,1916 @@
+{
+  "uri": "http://standard.open-contracting.org/examples/mreleases/ocds-213czf-000-00001-02-tender.json",
+  "version": "1.1",
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds-shareholders-extension/master/extension.json"
+  ],
+  "publishedDate": "2014-02-02T13:02:00Z",
+  "license": "http://opendatacommons.org/licenses/pddl/1.0/",
+  "publicationPolicy": "http://standard.open-contracting.org/examples/releases",
+  "publisher": {
+    "name": "Transaparencia Mexicana",
+    "scheme": "MX",
+    "uid": "0000",
+    "uri": "https://www.transparency.org/whoweare/contact/org/nc_mexico"
+  },
+  "releases": [
+    {
+      "_id": "jEDMAuo57sNimFgQr",
+      "ocid": "ocds-xxxxxx-0000",
+      "id": 0,
+      "parties": [
+        {
+          "id": 0,
+          "name": "SEVEN SEAS WATER CORPORATION",
+          "identifier": {
+            "legalName": "SEVEN SEAS WATER CORPORATION"
+          },
+          "address": {
+            "streetAddress": "14400 Carlson Circle",
+            "locality": "Tampa",
+            "region": "Florida",
+            "postalCode": 33626,
+            "countryName": "Estados Unidos"
+          },
+          "contactPoint": {
+            "name": "Santiago Arcilla",
+            "email": "info@7seaswater.com",
+            "telephone": "813.855.8636 ext. 4038",
+            "url": "http://sevenseaswater.com/es"
+          },
+          "shareholders": [
+            {
+              "id": 34,
+              "shareholder": {
+                "id": 456645,
+                "name": "Future Company"
+              }
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "name": "ATLATEC, S.A. DE C.V.",
+          "identifier": {
+            "legalName": "ATLATEC, S.A. DE C.V."
+          },
+          "address": {
+            "streetAddress": "Privada San Alberto 301",
+            "locality": "San Pedro Garza Garcia",
+            "region": "Nuevo León",
+            "postalCode": 66266,
+            "countryName": "México"
+          },
+          "contactPoint": {
+            "name": "José María Navarro Arreola",
+            "email": "info@atlatec.com",
+            "telephone": "52 (81) 8133 3200 y 01 800 710 7689",
+            "url": "http://www.atlatec.com"
+          },
+          "shareholders": [
+            {
+              "id": 35,
+              "shareholder": {
+                "id": 465456,
+                "name": "Boring Company"
+              }
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "GAMI INGENIERIA E INSTALACIONES, S.A. DE C.V.",
+          "identifier": {
+            "legalName": "GAMI INGENIERIA E INSTALACIONES, S.A. DE C.V."
+          },
+          "address": {
+            "streetAddress": "Zapotecas 17",
+            "locality": "Naucalpan",
+            "region": "Estado de México",
+            "postalCode": 53150,
+            "countryName": "México"
+          },
+          "contactPoint": {
+            "name": "Stefano Filauro Orella",
+            "email": "contacto@grupoindi.com",
+            "telephone": "52 (55) 5540 6750",
+            "url": "http://grupoindi.mx/"
+          },
+          "shareholders": [
+            {
+              "id": 46,
+              "shareholder": {
+                "id": 456456,
+                "name": "Best Company"
+              }
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "AVANZIA INSTALACIONES, S.A. DE C.V.",
+          "identifier": {
+            "legalName": "AVANZIA INSTALACIONES, S.A. DE C.V."
+          },
+          "address": {
+            "streetAddress": "José Luis Lagrange 103",
+            "locality": "Polanco",
+            "region": "Ciudad de México",
+            "postalCode": 11510,
+            "countryName": "México"
+          },
+          "contactPoint": {
+            "name": "Liliana Hernández Estrada",
+            "email": "liliana.hernandez@grupoavanzia.mx",
+            "telephone": "52 (55) 3640 3140",
+            "url": "https://www.grupoavanzia.mx/"
+          }
+        },
+        {
+          "id": 4,
+          "name": "PROMOTORA DEL DESARROLLO DE AMERICA LATINA, S.A. DE C.V.",
+          "identifier": {
+            "legalName": "PROMOTORA DEL DESARROLLO DE AMERICA LATINA, S.A. DE C.V."
+          },
+          "address": {
+            "streetAddress": "Lago Zurich 245",
+            "locality": "Ciudad de México",
+            "region": "Ciudad de México",
+            "postalCode": 11529,
+            "countryName": "México"
+          },
+          "contactPoint": {
+            "name": "Karem Peters Moreno",
+            "email": "kpetersm@ideal.com.mx",
+            "telephone": "52 (55) 1103 1300",
+            "url": "http://www.ideal.com.mx/empresa/"
+          }
+        },
+        {
+          "id": 5,
+          "name": "SUEZ MEDIO AMBIENTE MÉXICO, S.A. DE C.V.",
+          "identifier": {
+            "legalName": "SUEZ MEDIO AMBIENTE MÉXICO, S.A. DE C.V."
+          },
+          "address": {
+            "streetAddress": "Paseo de la Reforma 284 piso 18",
+            "locality": "Juárez",
+            "region": "Ciudad de México",
+            "postalCode": 6600,
+            "countryName": "México"
+          },
+          "contactPoint": {
+            "name": "Vicente Chavez Huerta",
+            "email": "vicente.chavez@suez.com",
+            "telephone": "52 (55) 5080 3500",
+            "url": "http://suez.com.mx/#home"
+          }
+        },
+        {
+          "id": 6,
+          "name": "NWC MÉXICO, S. DE R.L. DE C.V.",
+          "identifier": {
+            "legalName": "NWC MÉXICO, S. DE R.L. DE C.V."
+          },
+          "address": {
+            "countryName": "México"
+          },
+          "contactPoint": {
+            "name": "Robert Roy Grinberg Foder",
+            "email": "rgrinberg@nwcmexico.mx",
+            "telephone": "52 (55) 4114 1306"
+          }
+        },
+        {
+          "id": 7,
+          "name": "NSC AGUA, S.A. DE C.V.",
+          "identifier": {
+            "legalName": "NSC AGUA, S.A. DE C.V."
+          },
+          "address": {
+            "streetAddress": "Blvd Sánchez Taboada 10488-801",
+            "locality": "Tijuana",
+            "region": "Baja California",
+            "postalCode": 22320,
+            "countryName": "México"
+          },
+          "contactPoint": {
+            "name": "Milton Adan Rubio Diaz",
+            "email": "mrubio@nscagua.com",
+            "telephone": "686 5432 368",
+            "url": "http://nscagua.com"
+          }
+        },
+        {
+          "id": 8,
+          "name": "FYPASA CONSTRUCCIONES, S.A DE C.V",
+          "identifier": {
+            "legalName": "FYPASA CONSTRUCCIONES, S.A DE C.V"
+          },
+          "address": {
+            "streetAddress": "Nicolás San Juan 1515",
+            "locality": "Benito Juárez",
+            "region": "Ciudad de México",
+            "postalCode": 3100,
+            "countryName": "México"
+          },
+          "contactPoint": {
+            "name": "Sergio Liga Salgado",
+            "email": "sergioliga@gmail.com",
+            "telephone": "52 (55) 4607 9176",
+            "url": "http://www.fypasa.com.mx/"
+          }
+        },
+        {
+          "id": 9,
+          "name": "RWL WATER CENTRAL AMERICA, S. DE R.L. DE C.V.",
+          "identifier": {
+            "legalName": "RWL WATER CENTRAL AMERICA, S. DE R.L. DE C.V."
+          },
+          "address": {
+            "streetAddress": "Blvd. Manuel Avila Camacho 3130 piso 4 PH",
+            "locality": "Tlalnepantla de BAz",
+            "region": "Estado de México",
+            "postalCode": 54020,
+            "countryName": "México"
+          },
+          "contactPoint": {
+            "name": "Michael Paul Tramer",
+            "email": "mtramer@fluencecorp.com",
+            "telephone": "972 523501223",
+            "url": "https://www.fluencecorp.com/"
+          }
+        },
+        {
+          "id": 10,
+          "name": "GRUPO CONSTRUCCIONES PLANIFICADAS, S.A. DE C.V.",
+          "identifier": {
+            "legalName": "GRUPO CONSTRUCCIONES PLANIFICADAS, S.A. DE C.V."
+          },
+          "address": {
+            "streetAddress": "Blvd. Solidaridad 770",
+            "locality": "Hermosillo",
+            "region": "Sonora",
+            "postalCode": 83280,
+            "countryName": "México"
+          },
+          "contactPoint": {
+            "name": "José Pedro Gonzalez",
+            "email": "jpgonzalez@construplan.com.mx",
+            "telephone": "662 1080516",
+            "url": "http://www.construplan.com.mx/"
+          }
+        },
+        {
+          "id": 11,
+          "name": "PICORP DE MÉXICO, S.A. DE C.V.",
+          "identifier": {
+            "legalName": "PICORP DE MÉXICO, S.A. DE C.V."
+          },
+          "address": {
+            "streetAddress": "Lago Bolsena 277 piso 4",
+            "locality": "Miguel Hidalgo",
+            "region": "Ciudad de México",
+            "postalCode": 11320,
+            "countryName": "México"
+          },
+          "contactPoint": {
+            "name": "Juan Andres Tovar Dominguez",
+            "email": "andres.tovardominguez@gmail.com",
+            "telephone": "662 115 3319",
+            "url": "http://picorp.com.mx/"
+          }
+        },
+        {
+          "id": 12,
+          "name": "AQUALIA MÉXICO, S.A. DE C.V.",
+          "identifier": {
+            "legalName": "AQUALIA MÉXICO, S.A. DE C.V."
+          },
+          "address": {
+            "streetAddress": "Av. 5 de Febrero 1351",
+            "locality": "Queretaro",
+            "region": "Queretaro",
+            "postalCode": 76138,
+            "countryName": "México"
+          },
+          "contactPoint": {
+            "name": "Juan Carlos Cervantes Ocañas",
+            "email": "jccervanteso@aqualia.com",
+            "telephone": "(442) 343 2371",
+            "url": "http://www.aqualia.com"
+          }
+        },
+        {
+          "id": 13,
+          "name": "CALTIA CONCESIONES, S.A. DE C.V.",
+          "identifier": {
+            "legalName": "CALTIA CONCESIONES, S.A. DE C.V."
+          },
+          "address": {
+            "streetAddress": "Hegel 141 ",
+            "locality": "Miguel Hidalgo",
+            "region": "Ciudad de México",
+            "postalCode": 11570,
+            "countryName": "México"
+          },
+          "contactPoint": {
+            "name": "Gloria Lizeth Juárez Soto",
+            "email": "gjuarez.caltia@gmail.com",
+            "telephone": "52 (55) 4858 0342",
+            "url": "http://www.copasagroup.com"
+          }
+        },
+        {
+          "id": 14,
+          "name": "AGUA DE MÉXICO NUEVOS PROYECTOS, S.A. DE C.V.",
+          "identifier": {
+            "legalName": "AGUA DE MÉXICO NUEVOS PROYECTOS, S.A. DE C.V."
+          },
+          "address": {
+            "streetAddress": "Miguel Dublan 37",
+            "locality": "Miguel Hidalgo",
+            "region": "Ciudad de México",
+            "postalCode": 11870,
+            "countryName": "México"
+          },
+          "contactPoint": {
+            "name": "Carlos Alberto Filisosa Reyes",
+            "email": "cfilisosa@aguademexico.com",
+            "telephone": "52 (55) 2327 7620",
+            "url": "http://www.aguademexico.com.mx"
+          }
+        },
+        {
+          "id": 15,
+          "name": "IDE TECHNOLOGIES",
+          "identifier": {
+            "legalName": "IDE TECHNOLOGIES"
+          },
+          "contactPoint": {
+            "name": "Juan Manuel Lopez de la Cerda Ochoa",
+            "email": "director@proteosolutions.com",
+            "telephone": "52 (33) 1970 6609"
+          }
+        },
+        {
+          "id": 16,
+          "name": "FUERZA DE APOYO CONSTRUCTIVA DE OCCIDENTE S.A. DE C.V.",
+          "identifier": {
+            "legalName": "FUERZA DE APOYO CONSTRUCTIVA DE OCCIDENTE S.A. DE C.V."
+          },
+          "address": {
+            "streetAddress": "Romanos 939 piso 2",
+            "locality": "Zapopan",
+            "region": "Jalisco",
+            "postalCode": 45160,
+            "countryName": "México"
+          },
+          "contactPoint": {
+            "name": "María Alejandra López Ceballos",
+            "email": "mariole.lopez@dynfra.com.mx",
+            "telephone": "52 (33) 3559 8459",
+            "url": "http://dynamica.com.mx/"
+          }
+        },
+        {
+          "id": 17,
+          "name": "QUÍMICA APOLLO, S.A. DE C.V.",
+          "identifier": {
+            "legalName": "QUÍMICA APOLLO, S.A. DE C.V."
+          },
+          "address": {
+            "streetAddress": "Boulevard Miguel Alemán Valdez 206",
+            "locality": "Toluca ",
+            "region": "Estado de México",
+            "postalCode": 50200,
+            "countryName": "México"
+          },
+          "contactPoint": {
+            "name": "Rafael Forseck Rodríguez",
+            "email": "rforseck@quimica-apollo.com.mx",
+            "telephone": "52 (81) 8259 1634",
+            "url": "http://www.quimica-apollo.com.mx"
+          }
+        },
+        {
+          "id": 18,
+          "name": "LA PENINSULAR COMPAÑÍA CONSTRUCTORA, S.A. DE C.V.",
+          "identifier": {
+            "legalName": "LA PENINSULAR COMPAÑÍA CONSTRUCTORA, S.A. DE C.V."
+          },
+          "address": {
+            "streetAddress": "Paseo de la Reforma 383",
+            "locality": "Ciudad de México",
+            "region": "Ciudad de México",
+            "postalCode": 6500,
+            "countryName": "México"
+          },
+          "contactPoint": {
+            "name": "Enrique Arturo Reyes Villarreal",
+            "email": "concursos@grupohi.mx",
+            "telephone": "52 (55) 5985 1600",
+            "url": "http://www.grupohi.mx"
+          }
+        },
+        {
+          "id": 19,
+          "name": "PROMOTORA DEL DESARROLLO DE AMERICA LATINA, S.A. DE C.V.",
+          "identifier": {
+            "legalName": "PROMOTORA DEL DESARROLLO DE AMERICA LATINA, S.A. DE C.V."
+          },
+          "address": {
+            "streetAddress": "Lago Zurich 245",
+            "locality": "Ciudad de México",
+            "region": "Ciudad de México",
+            "postalCode": 11529,
+            "countryName": "México"
+          },
+          "contactPoint": {
+            "name": "Jorge Barron Romero",
+            "email": "jbarronr@ideal.com.mx",
+            "telephone": "52 (55) 1103 1300",
+            "url": "http://www.ideal.com.mx/empresa/"
+          }
+        },
+        {
+          "id": 20,
+          "name": "PROACTIVA MEDIO AMBIENTE MEXICO, S.A. DE C.V.",
+          "identifier": {
+            "legalName": "PROACTIVA MEDIO AMBIENTE MEXICO, S.A. DE C.V."
+          },
+          "address": {
+            "streetAddress": "Av. Ejercito Nacional 425, piso 8",
+            "locality": "Miguel Hidalgo",
+            "region": "Ciudad de México",
+            "postalCode": 11520,
+            "countryName": "México"
+          },
+          "contactPoint": {
+            "name": "Joel Castillo Dávila",
+            "email": "joel.castillo@veolia.com",
+            "telephone": "52 (55) 5722 7700",
+            "url": "https://veolia.com.mx/"
+          }
+        },
+        {
+          "id": 21,
+          "name": "FYPASA CONSTRUCCIONES, S.A DE C.V",
+          "identifier": {
+            "legalName": "FYPASA CONSTRUCCIONES, S.A DE C.V"
+          },
+          "address": {
+            "streetAddress": "Nicolás San Juan 1515",
+            "locality": "Benito Juárez",
+            "region": "Ciudad de México",
+            "postalCode": 3100,
+            "countryName": "México"
+          },
+          "contactPoint": {
+            "name": "Pedro Manuel González Mendoza",
+            "email": "pemagon@gmail.com",
+            "telephone": "664 188 3679",
+            "url": "http://www.fypasa.com.mx/"
+          }
+        },
+        {
+          "id": 22,
+          "name": "PICORP DE MÉXICO, S.A. DE C.V.",
+          "identifier": {
+            "legalName": "PICORP DE MÉXICO, S.A. DE C.V."
+          },
+          "address": {
+            "streetAddress": "Lago Bolsena 277 piso 4",
+            "locality": "Miguel Hidalgo",
+            "region": "Ciudad de México",
+            "postalCode": 11320,
+            "countryName": "México"
+          },
+          "contactPoint": {
+            "name": "Guadalupe Pacheco Estrada",
+            "email": "lgp.l.pacheco@gmail.com",
+            "telephone": "662 115 3319",
+            "url": "http://picorp.com.mx/"
+          }
+        },
+        {
+          "id": 23,
+          "name": "CONCESIONARIA COMSEG, S.A. DE C.V.",
+          "identifier": {
+            "legalName": "CONCESIONARIA COMSEG, S.A. DE C.V."
+          },
+          "address": {
+            "streetAddress": "Paseo de los Laureles 458-903",
+            "locality": "Cuajimalpa de Morelos",
+            "region": "Ciudad de México",
+            "postalCode": 5120,
+            "countryName": "México"
+          },
+          "contactPoint": {
+            "name": "Xóchitl Bernal Cruz",
+            "email": "xochitlbernalc@gmail.com",
+            "telephone": "662 177 5520",
+            "url": "http://www.comseg.com.mx/"
+          }
+        },
+        {
+          "id": 24,
+          "name": "RWL WATER CENTRAL AMERICA, S. DE R.L. DE C.V.",
+          "identifier": {
+            "legalName": "RWL WATER CENTRAL AMERICA, S. DE R.L. DE C.V."
+          },
+          "address": {
+            "streetAddress": "Blvd. Manuel Avila Camacho 3130 piso 4 PH",
+            "locality": "Tlalnepantla de BAz",
+            "region": "Estado de México",
+            "postalCode": 54020,
+            "countryName": "México"
+          },
+          "contactPoint": {
+            "name": "Yolanda Padilla Loza",
+            "email": "ypadilla@fluencecorp.com",
+            "telephone": "52 (55) 5909 8187",
+            "url": "https://www.fluencecorp.com/"
+          }
+        },
+        {
+          "id": 25,
+          "name": "SEVEN SEAS WATER CORPORATION",
+          "identifier": {
+            "legalName": "SEVEN SEAS WATER CORPORATION"
+          },
+          "address": {
+            "streetAddress": "14400 Carlson Circle",
+            "locality": "Tampa",
+            "region": "Florida",
+            "postalCode": 33626,
+            "countryName": "Estados Unidos"
+          },
+          "contactPoint": {
+            "name": "Jorge Luis Castillo Cardona",
+            "email": "jcastillo@7seaswater.com",
+            "telephone": "569 4275 8913",
+            "url": "http://sevenseaswater.com/es"
+          }
+        },
+        {
+          "id": 26,
+          "name": "AQUALIA MÉXICO, S.A. DE C.V.",
+          "identifier": {
+            "legalName": "AQUALIA MÉXICO, S.A. DE C.V."
+          },
+          "address": {
+            "streetAddress": "Av. 5 de Febrero 1351",
+            "locality": "Queretaro",
+            "region": "Queretaro",
+            "postalCode": 76138,
+            "countryName": "México"
+          },
+          "contactPoint": {
+            "name": "José Luis Hernández Flores",
+            "email": "jlhernandez@aqualia.com",
+            "telephone": "(442) 427 5900",
+            "url": "http://www.aqualia.com"
+          }
+        },
+        {
+          "id": 27,
+          "name": "GILA DESARROLLOS",
+          "identifier": {
+            "legalName": "GILA DESARROLLOS"
+          },
+          "address": {
+            "streetAddress": "Blvd. Morelos #307 local 202",
+            "locality": "Hermosillo",
+            "region": "Sonora",
+            "postalCode": 83145,
+            "countryName": "México"
+          },
+          "contactPoint": {
+            "name": "José Luis García Soto",
+            "email": "jgarcia@gila.com.mx",
+            "telephone": "662 223 2481",
+            "url": "http://gila.com.mx/"
+          }
+        },
+        {
+          "id": 28,
+          "name": "FUERZA DE APOYO CONSTRUCTIVA DE OCCIDENTE S.A. DE C.V.",
+          "identifier": {
+            "legalName": "FUERZA DE APOYO CONSTRUCTIVA DE OCCIDENTE S.A. DE C.V."
+          },
+          "address": {
+            "streetAddress": "Romanos 939 piso 2",
+            "locality": "Zapopan",
+            "region": "Jalisco",
+            "postalCode": 45160,
+            "countryName": "México"
+          },
+          "contactPoint": {
+            "name": "Paulo Dueñas",
+            "email": "mariole.lopez@dynfra.com.mx",
+            "telephone": "52 (33) 3559 8459",
+            "url": "http://dynamica.com.mx/"
+          }
+        },
+        {
+          "id": 29,
+          "name": "FUERZA DE APOYO CONSTRUCTIVA DE OCCIDENTE S.A. DE C.V.",
+          "identifier": {
+            "legalName": "FUERZA DE APOYO CONSTRUCTIVA DE OCCIDENTE S.A. DE C.V."
+          },
+          "address": {
+            "streetAddress": "Romanos 939 piso 2",
+            "locality": "Zapopan",
+            "region": "Jalisco",
+            "postalCode": 45160,
+            "countryName": "México"
+          },
+          "contactPoint": {
+            "name": "Fernando Vega Velázquez",
+            "email": "fernando.vega@dynfra.com.mx",
+            "telephone": "52 (33) 1320 7596",
+            "url": "http://dynamica.com.mx/"
+          }
+        },
+        {
+          "id": 30,
+          "name": "AQUALIA MÉXICO, S.A. DE C.V.",
+          "identifier": {
+            "legalName": "AQUALIA MÉXICO, S.A. DE C.V."
+          },
+          "address": {
+            "streetAddress": "Av. 5 de Febrero 1351",
+            "locality": "Queretaro",
+            "region": "Queretaro",
+            "postalCode": 76138,
+            "countryName": "México"
+          },
+          "contactPoint": {
+            "name": "David Diez Fronton",
+            "email": "ddiez@aqualia.com",
+            "telephone": "(442) 343 2371",
+            "url": "http://www.aqualia.com"
+          }
+        },
+        {
+          "id": 31,
+          "name": "EURODEPOSITOS HIDRAULICOS, S.A. DE C.V.",
+          "identifier": {
+            "legalName": "EURODEPOSITOS HIDRAULICOS, S.A. DE C.V."
+          },
+          "address": {
+            "streetAddress": "Km 7.5 carretera a San Isidro Mezatepec",
+            "locality": "Tlajomulco de Zuñiga",
+            "region": "Jalisco",
+            "postalCode": 45640,
+            "countryName": "México"
+          },
+          "contactPoint": {
+            "name": "Oscar Aramiz Anaya",
+            "email": "oscara@eurodepositos.com.mx",
+            "telephone": "52 (33) 3563 2222",
+            "url": "http://www.eurodepositos.com.mx"
+          }
+        },
+        {
+          "id": 32,
+          "name": "ATLATEC, S.A. DE C.V.",
+          "identifier": {
+            "legalName": "ATLATEC, S.A. DE C.V."
+          },
+          "address": {
+            "streetAddress": "Privada San Alberto 301",
+            "locality": "San Pedro Garza Garcia",
+            "region": "Nuevo León",
+            "postalCode": 66266,
+            "countryName": "México"
+          },
+          "contactPoint": {
+            "name": "Héctor Diaz Murillo",
+            "email": "info@atlatec.com",
+            "telephone": "52 (81) 8133 3200 y 01 800 710 7689",
+            "url": "http://www.atlatec.com"
+          }
+        },
+        {
+          "id": 33,
+          "name": "PERIDON",
+          "identifier": {
+            "legalName": "PERIDON"
+          },
+          "contactPoint": {
+            "name": "Carlos Ortiz"
+          }
+        },
+        {
+          "id": 34,
+          "name": "AGUA DE MÉXICO NUEVOS PROYECTOS, S.A. DE C.V.",
+          "identifier": {
+            "legalName": "AGUA DE MÉXICO NUEVOS PROYECTOS, S.A. DE C.V."
+          },
+          "address": {
+            "streetAddress": "Miguel Dublan 37",
+            "locality": "Miguel Hidalgo",
+            "region": "Ciudad de México",
+            "postalCode": 11870,
+            "countryName": "México"
+          },
+          "contactPoint": {
+            "name": "Héctor Gomez",
+            "telephone": "52 (55) 2327 7620",
+            "url": "http://www.aguademexico.com.mx"
+          }
+        },
+        {
+          "id": 35,
+          "name": "TICSA",
+          "identifier": {
+            "legalName": "TICSA"
+          },
+          "contactPoint": {
+            "name": "Stepano Sacchi",
+            "email": "ssachi@ticsa.com.mx"
+          }
+        },
+        {
+          "id": 36,
+          "name": "DOOSAN HYDRO TECHOLOGY-SAFBON",
+          "identifier": {
+            "legalName": "DOOSAN HYDRO TECHOLOGY-SAFBON"
+          },
+          "contactPoint": {
+            "name": "Mauricio Amaya",
+            "email": "amaya@doosanhydro.com"
+          }
+        },
+        {
+          "id": 37,
+          "name": "HYFLUX",
+          "identifier": {
+            "legalName": "HYFLUX"
+          },
+          "contactPoint": {
+            "name": "Mauro Aguilar Castro",
+            "email": "mau690115@gmail.com"
+          }
+        },
+        {
+          "id": 38,
+          "name": "DYNAMICA",
+          "identifier": {
+            "legalName": "DYNAMICA"
+          },
+          "contactPoint": {
+            "name": "Hector Preal Sánchez",
+            "email": "hectorpreal@dynfra.com.mx"
+          }
+        },
+        {
+          "id": 39,
+          "name": "BANCO DEL BAJIO",
+          "identifier": {
+            "legalName": "BANCO DEL BAJIO"
+          },
+          "contactPoint": {
+            "name": "Luis Obregón",
+            "email": "laobegron@bb.com.mx"
+          }
+        },
+        {
+          "id": 40,
+          "name": "BANCO SANTANDER",
+          "identifier": {
+            "legalName": "BANCO SANTANDER"
+          },
+          "contactPoint": {
+            "name": "Alejandra Ponce",
+            "email": "aponce@santander.com"
+          }
+        },
+        {
+          "id": 41,
+          "name": "IPP",
+          "identifier": {
+            "legalName": "IPP"
+          },
+          "contactPoint": {
+            "name": "Claudia Ponce",
+            "email": "claudianerenponce@gmail.com"
+          }
+        },
+        {
+          "id": 42,
+          "name": "NWC MÉXICO, S. DE R.L. DE C.V.",
+          "identifier": {
+            "legalName": "NWC MÉXICO, S. DE R.L. DE C.V."
+          },
+          "address": {
+            "countryName": "México"
+          },
+          "contactPoint": {
+            "name": "Ricardo P. Bahera",
+            "email": "rbahera@hidroindustrial.com.mx"
+          }
+        },
+        {
+          "id": 43,
+          "name": "ALFER",
+          "identifier": {
+            "legalName": "ALFER"
+          },
+          "contactPoint": {
+            "name": "Rodrigo Alvarez",
+            "email": "rodrigohaf@hotmail.com"
+          }
+        },
+        {
+          "id": 44,
+          "name": "AYESA MX",
+          "identifier": {
+            "legalName": "AYESA MX"
+          },
+          "contactPoint": {
+            "name": "Jesús Torres",
+            "email": "jtroldan@ayesa.com"
+          }
+        },
+        {
+          "id": 45,
+          "name": "AYESA MX",
+          "identifier": {
+            "legalName": "AYESA MX"
+          },
+          "contactPoint": {
+            "name": "Nacir Fernandez",
+            "email": "nfernandeza@ayesa.com"
+          }
+        },
+        {
+          "id": 46,
+          "name": "ACCIONA AGUA",
+          "identifier": {
+            "legalName": "ACCIONA AGUA"
+          },
+          "contactPoint": {
+            "name": "Carolina Viegra López",
+            "email": "carolina.viegra.lopez@acciona.com"
+          }
+        },
+        {
+          "id": 47,
+          "name": "FOZ",
+          "identifier": {
+            "legalName": "FOZ"
+          },
+          "contactPoint": {
+            "name": "Pablo Dacomba",
+            "telephone": "52 (55) 2689 4447"
+          }
+        },
+        {
+          "id": 48,
+          "name": "FOZ",
+          "identifier": {
+            "legalName": "FOZ"
+          },
+          "contactPoint": {
+            "name": "Carlos Sánchez",
+            "email": "casanchez@foz.com.br"
+          }
+        },
+        {
+          "id": 49,
+          "name": "SHCP",
+          "identifier": {
+            "legalName": "SHCP"
+          },
+          "contactPoint": {
+            "name": "Jesús Salazar Gutierrez",
+            "email": "jesus.salazar@hacienda.gob.mx"
+          }
+        },
+        {
+          "id": 50,
+          "name": "AGUAS DE ROSARITO",
+          "identifier": {
+            "legalName": "AGUAS DE ROSARITO"
+          },
+          "contactPoint": {
+            "name": "Lautaro Millaman",
+            "email": "lautario@nowaterglobal.com"
+          }
+        },
+        {
+          "id": 51,
+          "name": "MAV SC",
+          "identifier": {
+            "legalName": "MAV SC"
+          },
+          "contactPoint": {
+            "name": "Eduardo Velasco",
+            "email": "eduardo.velasco@mav.mx"
+          }
+        },
+        {
+          "id": 52,
+          "name": "MAKRO",
+          "identifier": {
+            "legalName": "MAKRO"
+          },
+          "contactPoint": {
+            "name": "Roberto Fort V.",
+            "email": "rfort@constructoramakro.com"
+          }
+        },
+        {
+          "id": 53,
+          "name": "HYFLUX",
+          "identifier": {
+            "legalName": "HYFLUX"
+          },
+          "contactPoint": {
+            "name": "Milton Chávez Gasca",
+            "email": "miltoncg77@hotmail.com"
+          }
+        },
+        {
+          "id": 54,
+          "name": "NWC MÉXICO, S. DE R.L. DE C.V.",
+          "identifier": {
+            "legalName": "NWC MÉXICO, S. DE R.L. DE C.V."
+          },
+          "address": {
+            "countryName": "México"
+          },
+          "contactPoint": {
+            "name": "Ricardo Mujica",
+            "email": "rmujica@hidroindustrial.com.mx",
+            "telephone": "52 (55) 1951 2851"
+          }
+        },
+        {
+          "id": 55,
+          "name": "AVANZIA INSTALACIONES, S.A. DE C.V.",
+          "identifier": {
+            "legalName": "AVANZIA INSTALACIONES, S.A. DE C.V."
+          },
+          "address": {
+            "streetAddress": "José Luis Lagrange 103",
+            "locality": "Polanco",
+            "region": "Ciudad de México",
+            "postalCode": 11510,
+            "countryName": "México"
+          },
+          "contactPoint": {
+            "name": "Carlos Cerezo",
+            "email": "carlos.cerezo@grupoavanzia.mx",
+            "telephone": "52 (55) 3640 3140",
+            "url": "https://www.grupoavanzia.mx/"
+          }
+        },
+        {
+          "id": 56,
+          "name": "AYESA MX",
+          "identifier": {
+            "legalName": "AYESA MX"
+          },
+          "contactPoint": {
+            "name": "Daniel Juárez Gómez",
+            "email": "djuarez@ayesa.com"
+          }
+        },
+        {
+          "id": 57,
+          "name": "CEISA",
+          "identifier": {
+            "legalName": "CEISA"
+          },
+          "contactPoint": {
+            "name": "Francisco Gómez Rivera",
+            "email": "francisco.gomez@ceisa-ih.com.mx"
+          }
+        },
+        {
+          "id": 58,
+          "name": "HI-PRO ECOLOGICOS, S.A. DE C.V.",
+          "identifier": {
+            "legalName": "HI-PRO ECOLOGICOS, S.A. DE C.V."
+          },
+          "contactPoint": {
+            "name": "Jorge Armando Mendoza Ramirez",
+            "email": "jorgemendoza@hipro.com.mx"
+          }
+        },
+        {
+          "id": 59,
+          "name": "MAV SC",
+          "identifier": {
+            "legalName": "MAV SC"
+          },
+          "contactPoint": {
+            "name": "Joel Germán Covarrubias",
+            "email": "german.covarrubias@mav.mx"
+          }
+        },
+        {
+          "id": 60,
+          "name": "ENERGIA LATINA",
+          "identifier": {
+            "legalName": "ENERGIA LATINA"
+          },
+          "contactPoint": {
+            "name": "Ismael Acero",
+            "email": "iacero@energia-latina.com"
+          }
+        },
+        {
+          "id": 61,
+          "name": "ENERGIA LATINA",
+          "identifier": {
+            "legalName": "ENERGIA LATINA"
+          },
+          "contactPoint": {
+            "name": "Antonio",
+            "email": "ceinet@infranet.com.mx"
+          }
+        },
+        {
+          "id": 62,
+          "name": "HG DESARROLLOS",
+          "identifier": {
+            "legalName": "HG DESARROLLOS"
+          },
+          "contactPoint": {
+            "name": "Ricardo Aguirre",
+            "email": "raguirre.llimg@gmail.com"
+          }
+        },
+        {
+          "id": 63,
+          "name": "FCI",
+          "identifier": {
+            "legalName": "FCI"
+          },
+          "contactPoint": {
+            "name": "Alfredo Betancourt",
+            "email": "abetancourt@fcila.com.mx"
+          }
+        },
+        {
+          "id": 64,
+          "name": "FGLEZ",
+          "identifier": {
+            "legalName": "FGLEZ"
+          },
+          "contactPoint": {
+            "name": "Carlos Reyes Zazueta",
+            "email": "carlosrz@fgyasociados.com"
+          }
+        },
+        {
+          "id": 65,
+          "name": "KSA",
+          "identifier": {
+            "legalName": "KSA"
+          },
+          "contactPoint": {
+            "name": "A. Sarmiento",
+            "email": "asarmiento@ksa.mx"
+          }
+        },
+        {
+          "id": 66,
+          "name": "MIP",
+          "identifier": {
+            "legalName": "MIP"
+          },
+          "contactPoint": {
+            "name": "Enrique Baena",
+            "email": "baenase@prodigy.net.mx"
+          }
+        },
+        {
+          "id": 67,
+          "name": "FIBODY",
+          "identifier": {
+            "legalName": "FIBODY"
+          },
+          "contactPoint": {
+            "name": "Luis R. Dominguez",
+            "email": "lrdoml@gmail.com"
+          }
+        },
+        {
+          "id": 68,
+          "name": "PSC",
+          "identifier": {
+            "legalName": "PSC"
+          },
+          "contactPoint": {
+            "name": "Juan Pablo Pérez Gravas S.",
+            "email": "jpablo24@hotmail.com"
+          }
+        },
+        {
+          "id": 69,
+          "name": "SUEZ MEDIO AMBIENTE MÉXICO, S.A. DE C.V.",
+          "identifier": {
+            "legalName": "SUEZ MEDIO AMBIENTE MÉXICO, S.A. DE C.V."
+          },
+          "address": {
+            "streetAddress": "Paseo de la Reforma 284 piso 18",
+            "locality": "Juárez",
+            "region": "Ciudad de México",
+            "postalCode": 6600,
+            "countryName": "México"
+          },
+          "contactPoint": {
+            "name": "Adrian Tieche",
+            "email": "adrian.tieche@suez.com",
+            "telephone": "52 (55) 5080 3500",
+            "url": "http://suez.com.mx/#home"
+          }
+        },
+        {
+          "id": 70,
+          "name": "CEISA",
+          "identifier": {
+            "legalName": "CEISA"
+          },
+          "contactPoint": {
+            "name": "Ramón Guerra ",
+            "email": "ramon.guerra@ceisa-ih.com.mx"
+          }
+        },
+        {
+          "id": 71,
+          "name": "SUEZ MEDIO AMBIENTE MÉXICO, S.A. DE C.V.",
+          "identifier": {
+            "legalName": "SUEZ MEDIO AMBIENTE MÉXICO, S.A. DE C.V."
+          },
+          "address": {
+            "streetAddress": "Paseo de la Reforma 284 piso 18",
+            "locality": "Juárez",
+            "region": "Ciudad de México",
+            "postalCode": 6600,
+            "countryName": "México"
+          },
+          "contactPoint": {
+            "name": "Alexia Michels",
+            "email": "alexia.michels@suez.com",
+            "telephone": "52 (55) 5080 3500",
+            "url": "http://suez.com.mx/#home"
+          }
+        },
+        {
+          "id": 72,
+          "name": "KSA",
+          "identifier": {
+            "legalName": "KSA"
+          },
+          "contactPoint": {
+            "name": "Silvia Rolden",
+            "email": "srolden@ksa.mx"
+          }
+        },
+        {
+          "id": 73,
+          "name": "PROCOINTER",
+          "identifier": {
+            "legalName": "PROCOINTER"
+          },
+          "contactPoint": {
+            "name": "Alejandro Hernandez Sampelayo",
+            "email": "asampelayo@procointer.com"
+          }
+        },
+        {
+          "id": 74,
+          "name": "DTP,SYC. S.A.",
+          "identifier": {
+            "legalName": "DTP,SYC. S.A."
+          },
+          "contactPoint": {
+            "name": "Jorge C. Saavedra",
+            "email": "jocasaav@yahoo.com.mx",
+            "telephone": "5668 3524"
+          }
+        },
+        {
+          "id": 75,
+          "name": "REGIOMONTANA DE CONSTRUCCIÓN Y SERVICIOS",
+          "identifier": {
+            "legalName": "REGIOMONTANA DE CONSTRUCCIÓN Y SERVICIOS"
+          },
+          "contactPoint": {
+            "name": "José María Sánchez",
+            "email": "jose.sanchez@recsa.biz",
+            "telephone": "(55) 1954 3346"
+          }
+        },
+        {
+          "id": 76,
+          "name": "AGUA DE MÉXICO NUEVOS PROYECTOS, S.A. DE C.V.",
+          "identifier": {
+            "legalName": "AGUA DE MÉXICO NUEVOS PROYECTOS, S.A. DE C.V."
+          },
+          "address": {
+            "streetAddress": "Miguel Dublan 37",
+            "locality": "Miguel Hidalgo",
+            "region": "Ciudad de México",
+            "postalCode": 11870,
+            "countryName": "México"
+          },
+          "contactPoint": {
+            "name": "Javier Sainz",
+            "email": "jsainz@aguademexico.com.mx",
+            "telephone": "6730 0480",
+            "url": "http://www.aguademexico.com.mx"
+          }
+        },
+        {
+          "id": 77,
+          "name": "AVANZIA INSTALACIONES, S.A. DE C.V.",
+          "identifier": {
+            "legalName": "AVANZIA INSTALACIONES, S.A. DE C.V."
+          },
+          "address": {
+            "streetAddress": "José Luis Lagrange 103",
+            "locality": "Polanco",
+            "region": "Ciudad de México",
+            "postalCode": 11510,
+            "countryName": "México"
+          },
+          "contactPoint": {
+            "name": "Jesús David Felix Chaidez",
+            "email": "jesus.felix@grupoavanzia.mx",
+            "telephone": "52 (55) 6116 7286",
+            "url": "https://www.grupoavanzia.mx/"
+          }
+        },
+        {
+          "id": 78,
+          "name": "AVANZIA INSTALACIONES, S.A. DE C.V.",
+          "identifier": {
+            "legalName": "AVANZIA INSTALACIONES, S.A. DE C.V."
+          },
+          "address": {
+            "streetAddress": "José Luis Lagrange 103",
+            "locality": "Polanco",
+            "region": "Ciudad de México",
+            "postalCode": 11510,
+            "countryName": "México"
+          },
+          "contactPoint": {
+            "name": "Jorge Eduarde León Reyes",
+            "email": "jorge.leon@grupoavanzia.mx",
+            "telephone": "52 (55) 5917 6318",
+            "url": "https://www.grupoavanzia.mx/"
+          }
+        },
+        {
+          "id": 79,
+          "name": "ATLATEC, S.A. DE C.V.",
+          "identifier": {
+            "legalName": "ATLATEC, S.A. DE C.V."
+          },
+          "address": {
+            "streetAddress": "Privada San Alberto 301",
+            "locality": "San Pedro Garza Garcia",
+            "region": "Nuevo León",
+            "postalCode": 66266,
+            "countryName": "México"
+          },
+          "contactPoint": {
+            "name": "Francisco Salazar",
+            "email": "francisco.salazar@atlatec.com",
+            "telephone": "52 (81) 8133 3100",
+            "url": "http://www.atlatec.com"
+          }
+        },
+        {
+          "id": 80,
+          "name": "DESALADORA KENTON",
+          "identifier": {
+            "legalName": "DESALADORA KENTON"
+          },
+          "contactPoint": {
+            "name": "Manuel Paredes",
+            "email": "manuel.paredes@desaladorakenton.com",
+            "telephone": "664 490 1443"
+          }
+        },
+        {
+          "id": 81,
+          "name": "GHI",
+          "identifier": {
+            "legalName": "GHI"
+          },
+          "contactPoint": {
+            "name": "Ana C. Ferrer B.",
+            "email": "acferrer@grupoih.mx",
+            "telephone": "(55) 5184 5524"
+          }
+        },
+        {
+          "id": 82,
+          "name": "GHI",
+          "identifier": {
+            "legalName": "GHI"
+          },
+          "contactPoint": {
+            "name": "José Carlos Pastor Z.",
+            "email": "jcpastor@grupoih.mx",
+            "telephone": "5985 1600"
+          }
+        },
+        {
+          "id": 83,
+          "name": "FUERZA DE APOYO CONSTRUCTIVA DE OCCIDENTE S.A. DE C.V.",
+          "identifier": {
+            "legalName": "FUERZA DE APOYO CONSTRUCTIVA DE OCCIDENTE S.A. DE C.V."
+          },
+          "address": {
+            "streetAddress": "Romanos 939 piso 2",
+            "locality": "Zapopan",
+            "region": "Jalisco",
+            "postalCode": 45160,
+            "countryName": "México"
+          },
+          "contactPoint": {
+            "name": "Carlos Eduardo Torres",
+            "email": "carlos.torres.b@dynfra.com.mx",
+            "telephone": "3338 3530",
+            "url": "http://dynamica.com.mx/"
+          }
+        },
+        {
+          "id": 84,
+          "name": "FUERZA DE APOYO CONSTRUCTIVA DE OCCIDENTE S.A. DE C.V.",
+          "identifier": {
+            "legalName": "FUERZA DE APOYO CONSTRUCTIVA DE OCCIDENTE S.A. DE C.V."
+          },
+          "address": {
+            "streetAddress": "Romanos 939 piso 2",
+            "locality": "Zapopan",
+            "region": "Jalisco",
+            "postalCode": 45160,
+            "countryName": "México"
+          },
+          "contactPoint": {
+            "name": "Alejandro Minalata",
+            "email": "alejandro.minakata@dynfra.com.mx",
+            "telephone": "(33) 3578 5151",
+            "url": "http://dynamica.com.mx/"
+          }
+        },
+        {
+          "id": 85,
+          "name": "QUÍMICA APOLLO, S.A. DE C.V.",
+          "identifier": {
+            "legalName": "QUÍMICA APOLLO, S.A. DE C.V."
+          },
+          "address": {
+            "streetAddress": "Boulevard Miguel Alemán Valdez 206",
+            "locality": "Toluca ",
+            "region": "Estado de México",
+            "postalCode": 50200,
+            "countryName": "México"
+          },
+          "contactPoint": {
+            "name": "Gustavo Rodarte",
+            "email": "grodarte@quimica-apollo.com.mx",
+            "telephone": "722 279 1455",
+            "url": "http://www.quimica-apollo.com.mx"
+          }
+        },
+        {
+          "id": 86,
+          "name": "QUÍMICA APOLLO, S.A. DE C.V.",
+          "identifier": {
+            "legalName": "QUÍMICA APOLLO, S.A. DE C.V."
+          },
+          "address": {
+            "streetAddress": "Boulevard Miguel Alemán Valdez 206",
+            "locality": "Toluca ",
+            "region": "Estado de México",
+            "postalCode": 50200,
+            "countryName": "México"
+          },
+          "contactPoint": {
+            "name": "Fredy Gonzalez Sande",
+            "email": "fgonzalez@quimica-apollo.com.mx",
+            "telephone": "722 19325",
+            "url": "http://www.quimica-apollo.com.mx"
+          }
+        },
+        {
+          "id": 87,
+          "name": "BANCO DEL BAJIO",
+          "identifier": {
+            "legalName": "BANCO DEL BAJIO"
+          },
+          "contactPoint": {
+            "name": "Iñigo de la Borbolla",
+            "email": "idelaborbolla@bb.com.mx",
+            "telephone": "3067 9484"
+          }
+        },
+        {
+          "id": 88,
+          "name": "ALTOR",
+          "identifier": {
+            "legalName": "ALTOR"
+          },
+          "contactPoint": {
+            "name": "Héctor D. Gonzalez",
+            "email": "hector.gonzalez@altorfin.com",
+            "telephone": "1250 9229"
+          }
+        },
+        {
+          "id": 89,
+          "name": "CONAGUA",
+          "identifier": {
+            "legalName": "CONAGUA"
+          },
+          "contactPoint": {
+            "name": "Héctor Madrid Luna",
+            "email": "hector.madrid@conagua.gob.mx",
+            "telephone": "5174 4245"
+          }
+        },
+        {
+          "id": 90,
+          "name": "TRANSPARENCIA MEXICANA, A.C.",
+          "identifier": {
+            "legalName": "TRANSPARENCIA MEXICANA, A.C."
+          },
+          "contactPoint": {
+            "name": "Gabriela Ramirez",
+            "email": "gramirez@tm.org.mx"
+          }
+        },
+        {
+          "id": 91,
+          "name": "CEA SONORA",
+          "identifier": {
+            "legalName": "CEA SONORA"
+          },
+          "contactPoint": {
+            "name": "Sergio Avila Ceceña",
+            "email": "sergio.avila@ceasonora.gob.mx"
+          }
+        },
+        {
+          "id": 92,
+          "name": "CEA SONORA",
+          "identifier": {
+            "legalName": "CEA SONORA"
+          },
+          "contactPoint": {
+            "name": "Rogelio Sánchez",
+            "email": "pescaharina@hotmail.com",
+            "telephone": "622 111 0918"
+          }
+        },
+        {
+          "id": 93,
+          "name": "CEA SONORA",
+          "identifier": {
+            "legalName": "CEA SONORA"
+          },
+          "contactPoint": {
+            "name": "Hildebrando Ramos Luna",
+            "email": "hildebrando.ramos@ceasonora.gob.mx"
+          }
+        },
+        {
+          "id": 94,
+          "name": "CEA SONORA",
+          "identifier": {
+            "legalName": "CEA SONORA"
+          },
+          "contactPoint": {
+            "name": "Martín Mexia Salido",
+            "email": "martin.mexia@ceasonora.gob.mx"
+          }
+        },
+        {
+          "id": 95,
+          "name": "CONAGUA",
+          "identifier": {
+            "legalName": "CONAGUA"
+          },
+          "contactPoint": {
+            "name": "Esmeralda Angulo Fortiz",
+            "email": "esmeralda.angulo@conagua.gob.mx"
+          }
+        },
+        {
+          "id": 96,
+          "name": "CONAGUA",
+          "identifier": {
+            "legalName": "CONAGUA"
+          },
+          "contactPoint": {
+            "name": "Eduardo Padilla Ascencio",
+            "email": "eduardo.padilla@conagua.gob.mx"
+          }
+        },
+        {
+          "id": 97,
+          "name": "SONORA",
+          "identifier": {
+            "legalName": "SONORA"
+          },
+          "contactPoint": {
+            "name": "Javier Gutierrez",
+            "email": "jgutierrezavila@gmail.com"
+          }
+        },
+        {
+          "id": 98,
+          "name": "CEA SONORA",
+          "identifier": {
+            "legalName": "CEA SONORA"
+          },
+          "contactPoint": {
+            "name": "Antonio Gandara Gonzalez",
+            "email": "agandarag@hotmail.com",
+            "telephone": "644 447 4747"
+          }
+        },
+        {
+          "id": 99,
+          "name": "CEA SONORA",
+          "identifier": {
+            "legalName": "CEA SONORA"
+          },
+          "contactPoint": {
+            "name": "Adolfo Harispuru",
+            "email": "aharispuro@csa.mx",
+            "telephone": "644 413 2062"
+          }
+        },
+        {
+          "id": 100,
+          "name": "CONAGUA",
+          "identifier": {
+            "legalName": "CONAGUA"
+          },
+          "contactPoint": {
+            "name": "Ulises Gracia",
+            "email": "ulises.garcia@conagua.gob.mx"
+          }
+        },
+        {
+          "id": 101,
+          "name": "CONAGUA",
+          "identifier": {
+            "legalName": "CONAGUA"
+          },
+          "contactPoint": {
+            "name": "Rubisel Perez",
+            "email": "rubisel.perez@conagua.gob.mx"
+          }
+        },
+        {
+          "id": 102,
+          "name": "NHG",
+          "identifier": {
+            "legalName": "NHG"
+          },
+          "contactPoint": {
+            "name": "Romel Walz",
+            "email": "rwalz@nhg.com.mx",
+            "telephone": "(55) 4142 6284"
+          }
+        },
+        {
+          "id": 103,
+          "name": "CEA SONORA",
+          "identifier": {
+            "legalName": "CEA SONORA"
+          },
+          "contactPoint": {
+            "name": "Sergio Salcido Smith",
+            "email": "segio.salcido@hotmail.com"
+          }
+        },
+        {
+          "id": 104,
+          "name": "TRANSPARENCIA MEXICANA",
+          "identifier": {
+            "legalName": "TRANSPARENCIA MEXICANA"
+          },
+          "contactPoint": {
+            "name": "Carla Crespo",
+            "email": "carespa@tm.org.mx"
+          }
+        },
+        {
+          "id": 105,
+          "name": "NHG",
+          "identifier": {
+            "legalName": "NHG"
+          },
+          "contactPoint": {
+            "name": "Alejandra Rojas",
+            "email": "arojas@nhg.com.mx"
+          }
+        },
+        {
+          "id": 106,
+          "name": "OPTIVA",
+          "identifier": {
+            "legalName": "OPTIVA"
+          },
+          "contactPoint": {
+            "name": "Norma Enriquez Rojas",
+            "email": "nenriquez@optiva.com.mx"
+          }
+        },
+        {
+          "id": 107,
+          "name": "CONAGUA",
+          "identifier": {
+            "legalName": "CONAGUA"
+          },
+          "contactPoint": {
+            "name": "Carolina Silva Uribe",
+            "email": "carolina.silva@conagua.gob.mx"
+          }
+        },
+        {
+          "id": 108,
+          "name": "CONAGUA",
+          "identifier": {
+            "legalName": "CONAGUA"
+          },
+          "contactPoint": {
+            "name": "Yunuen Chanes",
+            "email": "yunuen.chanes@conagua.gob.mx"
+          }
+        },
+        {
+          "id": 109,
+          "name": "CONAGUA",
+          "identifier": {
+            "legalName": "CONAGUA"
+          },
+          "contactPoint": {
+            "name": "Alma Sierra Diaz",
+            "email": "alma.sierra@conagua.gob.mx"
+          }
+        },
+        {
+          "id": 110,
+          "name": "HERMES INFRAESTRUCTURA",
+          "identifier": {
+            "legalName": "HERMES INFRAESTRUCTURA"
+          },
+          "contactPoint": {
+            "name": "Alejandra Cruz Aguirre",
+            "email": "acruz@grupohi.mx"
+          }
+        },
+        {
+          "id": 111,
+          "name": "ÉXITO",
+          "identifier": {
+            "legalName": "ÉXITO"
+          },
+          "contactPoint": {
+            "name": "Marcelo Erives M.",
+            "email": "merives@exitosup.com.mx"
+          }
+        },
+        {
+          "id": 112,
+          "name": "INTERACCIONES",
+          "identifier": {
+            "legalName": "INTERACCIONES"
+          },
+          "contactPoint": {
+            "name": "Lorenzo Thomas",
+            "email": "lmthomas@interacciones.com.mx"
+          }
+        },
+        {
+          "id": 113,
+          "name": "MULTIVA",
+          "identifier": {
+            "legalName": "MULTIVA"
+          },
+          "contactPoint": {
+            "name": "Denisse D. Diaz",
+            "email": "denissediaz@multiva.com.mx"
+          }
+        },
+        {
+          "id": 114,
+          "name": "MULTIVA",
+          "identifier": {
+            "legalName": "MULTIVA"
+          },
+          "contactPoint": {
+            "name": "Acber Gonzalez",
+            "email": "acber.gonzalez@multiva.com.mx"
+          }
+        },
+        {
+          "id": 115,
+          "name": "MAKRO S.A. DE C.V.",
+          "identifier": {
+            "legalName": "MAKRO S.A. DE C.V."
+          },
+          "contactPoint": {
+            "name": "Arturo Carrión",
+            "email": "acarreon@constructoramakro.com"
+          }
+        },
+        {
+          "id": 116,
+          "name": "GULESSERIAN CONSULTORES",
+          "identifier": {
+            "legalName": "GULESSERIAN CONSULTORES"
+          },
+          "contactPoint": {
+            "name": "Haig Gulesserian",
+            "email": "haig@gulesserian.mx"
+          }
+        },
+        {
+          "id": 117,
+          "name": "BANORTE",
+          "identifier": {
+            "legalName": "BANORTE"
+          },
+          "contactPoint": {
+            "name": "Francisco Vázquez Z.",
+            "email": "franciscovazquez@banorte.com"
+          }
+        },
+        {
+          "id": 118,
+          "name": "HAITARG",
+          "identifier": {
+            "legalName": "HAITARG"
+          },
+          "contactPoint": {
+            "name": "Javier Fernandez",
+            "email": "javier@haitagrb.com"
+          }
+        },
+        {
+          "id": 119,
+          "name": "SHCP",
+          "identifier": {
+            "legalName": "SHCP"
+          },
+          "contactPoint": {
+            "name": "Alejandro Chávez",
+            "email": "alejandro_chavez@hacienda.gob.mx"
+          }
+        },
+        {
+          "id": 120,
+          "name": "IAC MÉXICO",
+          "identifier": {
+            "legalName": "IAC MÉXICO"
+          },
+          "contactPoint": {
+            "name": "Antonio Garibay",
+            "email": "antonio.garibay@iacmexico.com"
+          }
+        },
+        {
+          "id": 121,
+          "name": "INFRAESTRUCTURA PUBLICA S.C.",
+          "identifier": {
+            "legalName": "INFRAESTRUCTURA PUBLICA S.C."
+          },
+          "contactPoint": {
+            "name": "Emmanuel Peña P.",
+            "email": "emmanuelpp@ippconsultores.com"
+          }
+        },
+        {
+          "id": 122,
+          "name": "INGENIERÍA EN ADM. DE CONTADO",
+          "identifier": {
+            "legalName": "INGENIERÍA EN ADM. DE CONTADO"
+          },
+          "contactPoint": {
+            "name": "Julieth Roeda Sandoval",
+            "telephone": "782 1432 660"
+          }
+        },
+        {
+          "id": 123,
+          "name": "CONSTRUCTORA MAKRO, S.A. DE C.V.",
+          "identifier": {
+            "legalName": "CONSTRUCTORA MAKRO, S.A. DE C.V."
+          },
+          "contactPoint": {
+            "name": "Juan Arturo Carreón Calderon",
+            "email": "acarrion@constructoramakro.com"
+          }
+        },
+        {
+          "id": 124,
+          "name": "CALTIA CONCESIONES, S.A. DE C.V.",
+          "identifier": {
+            "legalName": "CALTIA CONCESIONES, S.A. DE C.V."
+          },
+          "contactPoint": {
+            "name": "José Antonio Salazar Mtz.",
+            "email": "asalazar.caltia@gmail.com"
+          }
+        },
+        {
+          "id": 125,
+          "name": "CGGC MÉXICO",
+          "identifier": {
+            "legalName": "CGGC MÉXICO"
+          },
+          "contactPoint": {
+            "name": "Zhang Chumnuam",
+            "email": "zhangchumnaum@gmail.com"
+          }
+        },
+        {
+          "id": 126,
+          "name": "HG DESARROLLOS",
+          "identifier": {
+            "legalName": "HG DESARROLLOS"
+          },
+          "contactPoint": {
+            "name": "Ricardo Aguirre Illing",
+            "email": "raguirreilling@gmail.com"
+          }
+        },
+        {
+          "id": 127,
+          "name": "DELOITTE",
+          "identifier": {
+            "legalName": "DELOITTE"
+          },
+          "contactPoint": {
+            "name": "Jose A. Lovera",
+            "email": "jlovera@deloitte.com"
+          }
+        },
+        {
+          "id": 128,
+          "name": "ALFER",
+          "identifier": {
+            "legalName": "ALFER"
+          },
+          "contactPoint": {
+            "name": "Ricardo Martinez Celis",
+            "email": "ricardomartinez@grupoalfer.com"
+          }
+        }
+      ],
+      "planning": {
+        "rationale": "Recursos del Fondo Nacional de Infraestructura mediante el otorgamiento de un Apoyo No recuperable, por el monto que resulte menor de (i) hasta el 49% del Proyecto o (ii) el equivalente a la cantidad máxima de $345,318,760.36 M.N. Los recursos correspondientes al 51% requeridos para la ejecución del Proyecto serán aportados por el Desarrollador, de los cuales al menos el 20% del costo del Proyecto, provendrá de capital de riesgo y el resto podrá obtenerlo através de un financiamiento.",
+        "budget": {
+          "description": "Recursos del Fondo Nacional de Infraestructura mediante el otorgamiento de un Apoyo No recuperable, por el monto que resulte menor de (i) hasta el 49% del Proyecto o (ii) el equivalente a la cantidad máxima de $345,318,760.36 M.N. Los recursos correspondientes al 51% requeridos para la ejecución del Proyecto serán aportados por el Desarrollador, de los cuales al menos el 20% del costo del Proyecto, provendrá de capital de riesgo y el resto podrá obtenerlo através de un financiamiento.",
+          "amount": {
+            "amount": 704732163,
+            "currency": "MXN"
+          },
+          "uri": "http://desaladora.sonora.gob.mx/images/transparencia/dictamenes/boletin-oficial-decreto-123-desaladora.pdf"
+        },
+        "project": {
+          "title": "PRESTACIÓN DE LOS SERVICIOS DE ENTREGA DE AGUA POTABLE PARA LOS MUNICIPIOS DE GUAYMAS Y EMPALME, SONORA, MEDIANTE LA CAPTACIÓN Y DESALACIÓN DE AGUA, SU POTABILIZACIÓN, CONDUCCIÓN, ENTREGA DE 200 L/S Y LA DISPOSICIÓN DEL AGUA DE RECHAZO QUE CONSISTE EN LA ELABORACIÓN DEL PROYECTO EJECUTIVO, CONSTRUCCIÓN, EQUIPAMIENTO, PUESTA EN MARCHA, OPERACIÓN Y MANTENIMIENTO POR UN PLAZO DE 20 (VEINTE) AÑOS, MEDIANTE EL ESQUEMA DE ASOCIACIÓN PÚBLICO PRIVADA ",
+          "description": "http://desaladora.sonora.gob.mx/images/transparencia/dictamenes/dictamen-rentabilidad-social.pdf",
+          "id": "CEA-APP-OB-17-036",
+          "sector": {
+            "scheme": "SCIAN",
+            "description": "Captación, tratamiento y suministro de agua realizados por el sector público",
+            "id": 222111,
+            "uri": "http://www3.inegi.org.mx/sistemas/SCIAN/scian.aspx"
+          },
+          "locations": [
+            {
+              "description": "Mexico",
+              "gazetteer": {
+                "scheme": "GEONAMES",
+                "identifiers": 484
+              }
+            }
+          ]
+        }
+      },
+      "date": "2017-12-27T10:20:46.010Z",
+      "initiationType": "ppp",
+      "tag": [
+        "planning"
+      ]
+    }
+  ]
+}

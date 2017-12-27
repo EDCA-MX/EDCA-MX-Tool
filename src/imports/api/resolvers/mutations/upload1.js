@@ -18,7 +18,7 @@ export default function upload1(root, { file }) {
   let data = [];
 
   data.push(
-    workbook.SheetNames.filter(name => {
+    workbook.SheetNames.map(name => {
       let value = {};
       name !== 'Instrucciones' && name !== 'listas-desplegables'
         ? (value = helper(workbook.Sheets[name]))
@@ -28,7 +28,13 @@ export default function upload1(root, { file }) {
   );
 
   const object = merge({}, ...data[0]);
-  console.log(data, object);
+
+  const locations = object.planning.project.locations;
+  if (locations !== undefined) {
+    object.planning.project.locations = locations.filter(n => n != undefined);
+  }
+
+  object.ocid = object.ocid.toLowerCase();
 
   const finalObject = object;
 

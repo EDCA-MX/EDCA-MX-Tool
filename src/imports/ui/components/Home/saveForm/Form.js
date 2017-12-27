@@ -56,7 +56,7 @@ class AuthForm extends React.Component {
        * ### Registration
        * The registration form has 4 fields
        */
-      case SIGNIN:
+      case 'update':
         loginForm = (
           <div>
             <div>
@@ -81,6 +81,25 @@ class AuthForm extends React.Component {
               >
                 {tags}
               </select>
+            </div>
+          </div>
+        );
+        break;
+      case 'save':
+        loginForm = (
+          <div>
+            <div>
+              <InputTitle>Identificator</InputTitle>
+              <input
+                type="text"
+                placeholder="ocds-xxxxxx-0000"
+                value={username.value}
+                maxLength={username.maxLength}
+                disabled={username.disabled}
+                onChange={event => {
+                  onChange({ username: event.target.value });
+                }}
+              />
             </div>
           </div>
         );

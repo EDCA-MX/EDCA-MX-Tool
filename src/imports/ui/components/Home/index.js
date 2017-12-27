@@ -10,6 +10,7 @@ import MainMenu from '/imports/ui/components/Navigation/Menu';
 
 import Convertion from '/imports/ui/components/Home/Convertion';
 import Save from '/imports/ui/components/Home/Save';
+import Update from '/imports/ui/components/Home/Update';
 
 const Home = props =>
   <div id="outer-container">
@@ -18,6 +19,8 @@ const Home = props =>
       <Switch>
         <Route exact path="/" component={Convertion} />
         <Route exact path="/saveRecord" component={Save} />
+        <Route exact path="/updateRecord" component={Update} />
+        <Route exact path="/consultRecords" component={Save} />
       </Switch>
     </main>
   </div>;

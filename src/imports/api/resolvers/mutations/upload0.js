@@ -23,7 +23,11 @@ export default function upload0(root, { file }) {
 
   const allSheets = merge({}, ...data[0]);
   let relatedProcesses = allSheets.relatedProcesses; // Aqui se filtran todos los undefined
-  allSheets.relatedProcesses = relatedProcesses.filter(n => n != undefined);
+
+  if (relatedProcesses) {
+    allSheets.relatedProcesses = relatedProcesses.filter(n => n != undefined);
+  }
+
   let parties = allSheets.parties;
   allSheets.parties = parties.filter(n => n != undefined);
 
