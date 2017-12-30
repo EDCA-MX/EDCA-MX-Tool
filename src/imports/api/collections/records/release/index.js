@@ -6,7 +6,7 @@ const release = new SimpleSchema(
     ocid: String,
     id: String,
     date: Date,
-    tag: String,
+    tag: [String],
     initiationType: String,
     language: String,
     parties: [Organization],

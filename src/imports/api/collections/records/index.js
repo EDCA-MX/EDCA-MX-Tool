@@ -13,7 +13,7 @@ const Record = new SimpleSchema(
     },
     version: String,
     extensions: Array,
-    publishData: Date,
+    publishedDate: Date,
     license: {
       type: String,
       regEx: SimpleSchema.RegEx.Url,

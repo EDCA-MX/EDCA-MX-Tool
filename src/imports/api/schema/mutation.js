@@ -39,6 +39,7 @@ type Mutation {
   upload5(file : FileInput): JSON
   upload6(file : FileInput): JSON
   refresh(file : FileInput): JSON
+  record(file : FileInput): JSON
 }
 `;
 export default () => [Mutation, User];

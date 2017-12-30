@@ -33,8 +33,7 @@ const Convertion = props =>
                   <button
                     className="upload"
                     onClick={event => {
-                      props.record({ id: props.formData, data: props.data });
-                      console.log({ id: props.formData, data: props.data });
+                      props.record(props.data);
                     }}
                   />
                 </div>

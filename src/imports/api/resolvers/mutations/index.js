@@ -9,6 +9,7 @@ import upload4 from './upload4';
 import upload5 from './upload5';
 import upload6 from './upload6';
 import refresh from './refresh';
+import record from './record';
 
 export default {
   updateEmail,
@@ -22,4 +23,5 @@ export default {
   upload5,
   upload6,
   refresh,
+  record,
 };
