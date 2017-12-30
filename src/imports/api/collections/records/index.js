@@ -1,32 +1,33 @@
 import { Meteor } from 'meteor/meteor';
 import SimpleSchema from 'simpl-schema';
+import Publisher from './release/elements/publisher';
+import Release from './release';
 
-Meteor.users.attachSchema(
-  new SimpleSchema(
-    {
-      uri: {
-        type: String,
-        regEx: SimpleSchema.RegEx.Url,
-      },
+const Records = new Meteor.Collection('records');
+
+const Record = new SimpleSchema(
+  {
+    uri: {
+      type: String,
+      regEx: SimpleSchema.RegEx.Url,
     },
-    { requiredByDefault: true }
-  )
+    version: String,
+    extensions: Array,
+    publishData: Date,
+    license: {
+      type: String,
+      regEx: SimpleSchema.RegEx.Url,
+    },
+    publicationPolicy: {
+      type: String,
+      regEx: SimpleSchema.RegEx.Url,
+    },
+    publisher: Publisher,
+    releases: [Release],
+  },
+  { requiredByDefault: true }
 );
 
-Meteor.users.setStepCompleted = ({ userId, step }) =>
-  Meteor.users.update(
-    {
-      _id: userId,
-      'stepsCompleted.step': { $ne: step },
-    },
-    {
-      $addToSet: {
-        stepsCompleted: {
-          timestamp: new Date(),
-          step,
-        },
-      },
-    }
-  );
+Records.attachSchema(Record);
 
-export default Meteor.users;
+export default Records;

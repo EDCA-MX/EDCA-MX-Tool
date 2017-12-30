@@ -11,8 +11,6 @@ import { graphql } from 'react-apollo';
 import gql from 'graphql-tag';
 import Form from './saveForm/Form';
 
-const { SIGNIN } = require('../../redux/reducers/actionsConstants').default;
-
 import Dropzone from './Dropzone';
 
 const Convertion = props =>
@@ -26,13 +24,19 @@ const Convertion = props =>
                 <div className="col-md-6 col-sm-12 col-centered">
                   <h3 className="section-title text-center blue-text">Nuevo Registro</h3>
                 </div>
-                <Form formType="save" />
+                <Form formType="save" saveData={props.setFormData} />
                 <div className="col-md-6 col-sm-12 col-centered">
                   <h3 className="section-title text-center blue-text">Datos</h3>
-                  <Dropzone />
+                  <Dropzone saveData={props.setData} />
                 </div>
                 <div className="col-md-12 col-sm-12 col-centered">
-                  <button className="upload" />
+                  <button
+                    className="upload"
+                    onClick={event => {
+                      props.record({ id: props.formData, data: props.data });
+                      console.log({ id: props.formData, data: props.data });
+                    }}
+                  />
                 </div>
               </div>
             </div>
@@ -45,35 +49,21 @@ const Convertion = props =>
 const ConvertionContainer = compose(
   graphql(
     gql`
-      mutation refresh($file: FileInput) {
-        refresh(file: $file)
+      mutation record($file: FileInput) {
+        record(file: $file)
       }
     `,
     {
-      name: 'refresh',
+      name: 'record',
     }
   ),
-  withState('show', 'setShow', false),
-  withState('JSONdata', 'setData', ''),
+  withState('formData', 'setFormData', ''),
+  withState('data', 'setData', ''),
   withHandlers({
-    refresh: ({ refresh }) => file => {
-      refresh({
+    record: ({ record }) => file => {
+      record({
         variables: { file },
-        refetchQueries: [
-          {
-            query: gql`
-              query get0 {
-                get0
-              }
-            `,
-          },
-        ],
       });
-    },
-  }),
-  lifecycle({
-    componentDidMount() {
-      this.props.refresh();
     },
   })
 )(Convertion);

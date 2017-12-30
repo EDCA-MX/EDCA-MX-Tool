@@ -23,6 +23,7 @@ export default function upload0(root, { file }) {
 
   const allSheets = merge({}, ...data[0]);
   let relatedProcesses = allSheets.relatedProcesses; // Aqui se filtran todos los undefined
+
   if (relatedProcesses) {
     allSheets.relatedProcesses = relatedProcesses.filter(n => n != undefined);
   }
@@ -31,7 +32,6 @@ export default function upload0(root, { file }) {
   allSheets.parties = parties.filter(n => n != undefined);
 
   let accionistas = helper(workbook.Sheets.Accionistas).parties; // Aqui se une a los accionistas (solo en caso de existir)
-  console.log(accionistas);
   if (accionistas !== undefined) {
     accionistas = accionistas.filter(n => n != undefined);
     let mergedParties = map(allSheets.parties, obj =>

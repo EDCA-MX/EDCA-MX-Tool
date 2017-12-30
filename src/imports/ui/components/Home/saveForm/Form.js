@@ -22,13 +22,6 @@ let InputTitle = styled.h2`
   font-size: 1em;
 `;
 
-let InputError = styled.h2`
-  color: tomato;
-  font-size: 1em;
-`;
-
-const { SIGNIN } = require('../../../redux/reducers/actionsConstants').default;
-
 class AuthForm extends React.Component {
   /**
    * ## render
@@ -39,6 +32,7 @@ class AuthForm extends React.Component {
   render() {
     let onChange = values => {
       console.log(values);
+      this.props.saveData(values);
     };
     let { formType } = this.props;
     let username = {
@@ -107,17 +101,6 @@ class AuthForm extends React.Component {
       default:
         break;
     }
-    /**
-     * ### Return
-     *       ocid: String,
-      id: String,
-      date: Date,
-      tag: String,
-      initiationType: String,
-      language: String,
-      parties: [Organization],
-     * returns the Form with the correct structures
-     */
     return (
       <div>
         {loginForm}

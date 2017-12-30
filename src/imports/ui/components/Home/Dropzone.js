@@ -1,8 +1,9 @@
 import DropzoneComponent from 'react-dropzone-component';
 import ReactDOMServer from 'react-dom/server';
-import { compose, withHandlers } from 'recompose';
+import { compose, withHandlers, withState } from 'recompose';
 import { graphql } from 'react-apollo';
 import gql from 'graphql-tag';
+import fs from 'fs';
 
 let componentConfig = {
   iconFiletypes: ['.json'],
@@ -40,10 +41,9 @@ var djsConfig = {
 const Dropzone = props => {
   var eventHandlers = {
     addedfile: file => {
-      props.setShow(true);
       switch (file.name) {
-        case 'entrega.json': {
-          props.handleJSON(file);
+        case 'data.json': {
+          props.saveData(file);
           break;
         }
         default:
@@ -62,33 +62,4 @@ const Dropzone = props => {
   );
 };
 
-const DropzoneContainer = compose(
-  graphql(
-    gql`
-      mutation upload0($file: FileInput) {
-        upload0(file: $file)
-      }
-    `,
-    {
-      name: 'upload0',
-    }
-  ),
-  withHandlers({
-    handleJSON: ({ upload0 }) => file => {
-      upload0({
-        variables: { file },
-        refetchQueries: [
-          {
-            query: gql`
-              query getF0 {
-                get0
-              }
-            `,
-          },
-        ],
-      });
-    },
-  })
-)(Dropzone);
-
-export default DropzoneContainer;
+export default Dropzone;

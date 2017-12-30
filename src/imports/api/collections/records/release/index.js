@@ -1,7 +1,7 @@
 import SimpleSchema from 'simpl-schema';
 import Organization from './elements/organization';
 
-const record = new SimpleSchema(
+const release = new SimpleSchema(
   {
     ocid: String,
     id: String,
@@ -14,4 +14,4 @@ const record = new SimpleSchema(
   { requiredByDefault: true }
 );
 
-export default record;
+export default release;
