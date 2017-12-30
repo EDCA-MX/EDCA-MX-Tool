@@ -23,10 +23,6 @@ const Convertion = props =>
               <div className="row-centered white-text">
                 <div className="col-md-6 col-sm-12 col-centered">
                   <h3 className="section-title text-center blue-text">Nuevo Registro</h3>
-                </div>
-                <Form formType="save" saveData={props.setFormData} />
-                <div className="col-md-6 col-sm-12 col-centered">
-                  <h3 className="section-title text-center blue-text">Datos</h3>
                   <Dropzone saveData={props.setData} />
                 </div>
                 <div className="col-md-12 col-sm-12 col-centered">
