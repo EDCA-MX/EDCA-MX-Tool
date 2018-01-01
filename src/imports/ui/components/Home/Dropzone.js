@@ -41,6 +41,7 @@ var djsConfig = {
 const Dropzone = props => {
   var eventHandlers = {
     addedfile: file => {
+      console.log(props);
       switch (file.name) {
         case 'data.json': {
           props.saveData(file);

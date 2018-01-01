@@ -9,9 +9,9 @@ import 'bootstrap/dist/css/bootstrap.css';
 import { compose, withHandlers, lifecycle, withState } from 'recompose';
 import { graphql } from 'react-apollo';
 import gql from 'graphql-tag';
-import Form from './saveForm/Form';
 
 import Dropzone from './Dropzone';
+import Form from './saveForm/Form';
 
 const Convertion = props =>
   <div id="outer-container">
@@ -23,7 +23,8 @@ const Convertion = props =>
               <div className="row-centered white-text">
                 <div className="col-md-6 col-sm-12 col-centered">
                   <h3 className="section-title text-center blue-text">Nuevo Registro</h3>
-                  <Dropzone saveData={props.setData} />
+                  <Form formType="save" saveData={props.setFormData} />
+                  <Dropzone saveData={props.setData} ocid={props.formData} />
                 </div>
                 <div className="col-md-12 col-sm-12 col-centered">
                   <button

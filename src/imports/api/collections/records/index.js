@@ -11,6 +11,7 @@ const Record = new SimpleSchema(
       type: String,
       regEx: SimpleSchema.RegEx.Url,
     },
+    ocid: String,
     version: String,
     extensions: Array,
     publishedDate: Date,

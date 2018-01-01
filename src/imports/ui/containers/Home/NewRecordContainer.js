@@ -13,11 +13,6 @@ import * as authActions from '../../redux/reducers/auth/authActions';
 import * as intlActions from '../../redux/reducers/intl/intlActions';
 
 const actions = [authActions, intlActions];
-const {
-  SIGNIN,
-  SIGNUP,
-  FORGOT_PASSWORD,
-} = require('../../redux/reducers/actionsConstants').default;
 
 function mapDispatchToProps(dispatch) {
   const creators = Map().merge(...actions).filter(value => typeof value === 'function').toObject();
