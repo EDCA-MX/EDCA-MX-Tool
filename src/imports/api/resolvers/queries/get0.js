@@ -21,7 +21,7 @@ export default function() {
     license: 'http://opendatacommons.org/licenses/pddl/1.0/',
     publicationPolicy: 'http://standard.open-contracting.org/examples/releases',
     publisher: {
-      name: 'Transaparencia Mexicana',
+      name: 'Transparencia Mexicana',
       scheme: 'MX',
       uid: '0000',
       uri: 'https://www.transparency.org/whoweare/contact/org/nc_mexico',
