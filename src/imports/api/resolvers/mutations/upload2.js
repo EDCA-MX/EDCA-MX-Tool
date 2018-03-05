@@ -28,7 +28,8 @@ export default function upload2(root, { file }) {
   );
 
   const object = merge({}, ...data[0]);
-  console.log(data, object);
+
+  Object.keys(object).forEach(key => object[key] === null && delete object[key]);
 
   const finalObject = object;
 

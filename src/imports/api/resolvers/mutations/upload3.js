@@ -15,6 +15,7 @@ const removeEmpty = obj =>
 
 export default function upload3(root, { file }) {
   let workbook = XLSX.readFile(file.path);
+
   let data = [];
 
   data.push(
@@ -28,7 +29,38 @@ export default function upload3(root, { file }) {
   );
 
   const object = merge({}, ...data[0]);
-  console.log(data, object);
+
+  const milestones = object.tender.milestones;
+  if (milestones !== undefined) {
+    object.tender.milestones = milestones.filter(n => n != undefined);
+  }
+
+  const criteria = object.tender.criteria;
+  if (criteria !== undefined) {
+    object.tender.criteria = criteria.filter(n => n != undefined);
+  }
+
+  const documents = object.tender.documents;
+  if (documents !== undefined) {
+    object.tender.documents = documents.filter(n => n != undefined);
+  }
+
+  const tenderers = object.tender.tenderers;
+  if (tenderers !== undefined) {
+    object.tender.tenderers = tenderers.filter(n => n != undefined);
+  }
+
+  const items = object.tender.items;
+  if (items !== undefined) {
+    object.tender.items = items.filter(n => n != undefined);
+  }
+
+  const details = object.bids.details;
+  if (details !== undefined) {
+    object.bids.details = details.filter(n => n != undefined);
+  }
+
+  console.log(object);
 
   const finalObject = object;
 
