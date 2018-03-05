@@ -50,11 +50,11 @@ const Dropzone = props => {
           props.handleFile1(file);
           break;
         }
-        case '02-Precalificacion.xlsx': {
+        case '03-Evaluacion.xlsx': {
           props.handleFile2(file);
           break;
         }
-        case '03-Licitacion.xlsx': {
+        case '02-Licitacion.xlsx': {
           props.handleFile3(file);
           break;
         }
